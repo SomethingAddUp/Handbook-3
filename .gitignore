@@ -1,9 +1,13 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
-.DS_Store# .gitignore
-.venv/
-*.pyc
-__pycache__/
+*.pyo
+
+# macOS
 .DS_Store
+
+# Virtual environment
+.venv/
+
+# PyCharm project files
 .idea/
