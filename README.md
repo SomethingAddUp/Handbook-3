@@ -28,5 +28,6 @@ code validation, and contains retry logic to handle potential network instabilit
    - cd Handbook-3
 2. Install dependencies required for the tests
    - pip install -r requirements.txt
-3. Run the application
+3. self.api = " YOUR_API_KEY "
+4. Run the application
    - python app/weather.py

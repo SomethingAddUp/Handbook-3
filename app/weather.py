@@ -15,7 +15,7 @@ class WeatherApp(QWidget):
         self.load_temperature = QLabel(self)
         self.weather_emoji = QLabel(self)
         self.weather_description = QLabel(self)
-        self.api = "dc4ac3bc9b1ec918e08d17e2ae161e06"
+        self.api = "dc4ac3bc9b1ec918e08d17e2ae161e06"       # should apply your API KEY
 
         self.format()
 

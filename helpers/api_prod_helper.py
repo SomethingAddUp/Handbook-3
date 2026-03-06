@@ -2,10 +2,10 @@ import requests
 import time
 
 def send_request(method, url, payload, timeout = 10, retries = 3, sec = 2):
+    session = requests.Session()
+    method = method.upper()
     for attempt in range(retries):
         try:
-            session = requests.Session()
-            method = method.upper()
             response = session.request( method = method,
                                          url = url,
                                         json = payload,
